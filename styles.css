@@ -102,6 +102,9 @@ header{
     align-items: center;
     justify-content: center;
 }
+.dropdown_menu li :hover{
+    color: orangered;
+}
 .dropdown_menu .action_btn{
     width: 100%;
     display: flex;
@@ -119,5 +122,11 @@ header{
     }
     .dropdown_menu{
         display: block;
+    }
+}
+@media (max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
     }
 }
